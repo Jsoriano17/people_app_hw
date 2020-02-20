@@ -1,23 +1,23 @@
-<h1>Users#new</h1>
+
 <h1>New User</h1>
-<%= form_for @user do |f| %>
-  <%= f.label :firstname %>
-  <%= f.text_field :firstname %>
+<%= form_for @users do |f| %>
+  <%= f.label 'first_name' %>
+  <%= f.text_field 'first_name'%>
 
-  <%= f.label :lastname %>
-  <%= f.text_field :lastname %>
+  <%= f.label 'last_name' %>
+  <%= f.text_field 'last_name' %>
 
-  <%= f.label :age %>
-  <%= f.text_field :age %>
+  <%= f.label 'age' %>
+  <%= f.text_field 'age' %>
 
-  <%= f.label :haircolor %>
-  <%= f.text_field :haircolor %>
+  <%= f.label 'hair_color' %>
+  <%= f.text_field 'hair_color' %>
 
-  <%= f.label :eyecolor %>
-  <%= f.text_field :eyecolor %>
+  <%= f.label 'eye_color' %>
+  <%= f.text_field 'eye_color' %>
 
-  <%= f.label :gender %>
-  <%= f.text_field :gender %>
+  <%= f.label 'gender' %>
+  <%= f.text_field 'gender' %>
 
   <%= f.submit %>
 <% end %>

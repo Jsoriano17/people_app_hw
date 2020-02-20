@@ -51,3 +51,62 @@ a {
 a:hover {
     color: rgb(15, 31, 255);
 }
+
+label {
+    font-family: arial;
+}
+
+#user_first_name {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#user_last_name {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#user_age {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#user_hair_color {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#user_eye_color {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#user_gender {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

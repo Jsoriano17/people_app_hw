@@ -15,19 +15,22 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
 
    if @user.save
-     redirect_to pages_path
+     redirect_to users_path
    else
      render :new
    end
   end
 
   def edit
+    @user = User.new(user_params)
   end
 
   def update
   end
 
   def destroy
+    User.find(params[:id]).destroy
+    redirect_to users_path
   end
 
   private
