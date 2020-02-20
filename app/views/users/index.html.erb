@@ -1,2 +1,6 @@
-<h1>Users#index</h1>
-<%= @users %>
+<h1>List of Users</h1>
+<% @users.each do |user| %>
+   <h2><%= "#{user.first_name} #{user.last_name}" %> </h2>
+   <%= link_to 'User info', user_path(user)%>
+   <p><%= link_to 'New User', new_user_path %></p>
+<% end %>

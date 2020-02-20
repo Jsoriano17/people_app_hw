@@ -1,2 +1,11 @@
-<h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<h1>Users Info</h1>
+
+    <h2><%= "#{@users.first_name} #{@users.last_name}" %> </h2>
+    <h2>Age: <%= @users.age %></h2>
+    <h2>Hair color: <%= @users.hair_color %></h2>
+    <h2>Eye color: <%= @users.eye_color %></h2>
+    <h2>Gender: <%= @users.gender %></h2>
+    <h2>Still alive: <%=@users.alive %> </h2>
+    <%= link_to 'Back', users_path %>
+   
+
