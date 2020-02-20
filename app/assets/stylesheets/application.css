@@ -21,14 +21,23 @@
  h1 {
      font-family: arial;
      text-decoration: underline;
+     margin-left: 20px;
  }
 
  h2 {
+    color: rgb(92, 0, 138);
     font-family: arial;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: arial;
+    margin-left: 20px;
 }
 
 p {
     font-family: arial;
+    margin-left: 20px;
 }
 
 a {
@@ -36,6 +45,7 @@ a {
     text-decoration: none;
     color: black;
     transition: all ease-in-out .3s;
+    margin-left: 20px;
 }
 
 a:hover {
